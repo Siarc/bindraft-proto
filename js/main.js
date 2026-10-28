@@ -23,11 +23,11 @@
   } else { rv.forEach(function (el) { el.classList.add('in'); }); }
 
 
-  // Scroll-spy for sticky chapter index (Services) and legal contents (desktop)
+  // Scroll-spy for legal contents (desktop)
   document.querySelectorAll('[data-spy]').forEach(function (ol) {
     // Skip if the TOC/index is hidden (e.g. legal Contents on mobile)
     function visible() {
-      var host = ol.closest('.legal-toc, .svc-index') || ol;
+      var host = ol.closest('.legal-toc') || ol;
       return window.getComputedStyle(host).display !== 'none';
     }
     var links = Array.prototype.slice.call(ol.querySelectorAll('a[href^="#"]'));

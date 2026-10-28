@@ -59,8 +59,7 @@ def page(path, title, desc, body, current=None):
   <a class="logo" href="{r}index.html" aria-label="BindRaft home">BindRaft<i></i></a>
   <nav aria-label="Primary"><ul>
    {nav_a("work/index.html","Work","work","01")}
-   <li class="has-sub"><a href="{r}services/index.html"{' aria-current="page"' if current and current.startswith("services") else ""}><sup>02</sup>Services</a><span class="vp" aria-label="Services variants">{"".join(f'<a href="{r}{h}" title="{t}" aria-label="{t}"{' aria-current="page"' if current == k else ""}>{n}</a>' for n,h,t,k in [("1","services/index.html","Services (chapters)","services"),("Alt","services3/index.html","Services alt (manifesto)","services3")])}</span></li>
-   <li class="m-only"><a href="{r}services3/index.html"{' aria-current="page"' if current == "services3" else ""}><sup>02.1</sup>Services alt <small>Manifesto</small></a></li>
+   <li><a href="{r}services/index.html"{' aria-current="page"' if current == "services" else ""}><sup>02</sup>Services</a></li>
    {nav_a("about/index.html","About","about","03")}
    {nav_a("contact/index.html","Contact","contact","04")}
   </ul></nav>
@@ -79,7 +78,7 @@ def page(path, title, desc, body, current=None):
    <div><a href="{r}index.html" class="big" aria-label="BindRaft home">BindRaft<i></i></a>
     <p class="muted" style="margin-top:16px;max-width:36ch">Product-engineering studio in Uttara, Dhaka. Web, mobile, AI agents.</p></div>
    <div><h4>Index</h4><ul>
-    <li><a href="{r}work/index.html">Work</a></li><li><a href="{r}services/index.html">Services</a></li><li><a href="{r}services3/index.html">Services alt</a></li>
+    <li><a href="{r}work/index.html">Work</a></li><li><a href="{r}services/index.html">Services</a></li>
     <li><a href="{r}about/index.html">About</a></li><li><a href="{r}contact/index.html">Contact</a></li></ul></div>
    <div><h4>Talk</h4><ul>
     <li><a href="mailto:{EMAIL}">{EMAIL}</a></li><li><a href="tel:{TEL}">{PHONE}</a></li>
@@ -131,7 +130,7 @@ cases_html = "".join(f'''
 </a>''' for i, s in enumerate(ORDER))
 
 svc_rows = "".join(f'''
-<a class="row-i" href="{{r}}services/index.html#s{i+1}"><span class="n">0{i+1}</span><h3>{t}</h3><p>{o}</p><span class="arr">→</span></a>''' for i,(t,o,*_ ) in enumerate(SERVICES))
+<a class="row-i" href="{{r}}services/index.html#p{i+1}"><span class="n">0{i+1}</span><h3>{t}</h3><p>{o}</p><span class="arr">→</span></a>''' for i,(t,o,*_ ) in enumerate(SERVICES))
 
 home = f'''
 <section class="hero">
@@ -298,44 +297,11 @@ for i, s in enumerate(ORDER):
 '''
     page(f"work/{s}.html", f"{c['name']} · Case · BindRaft", b["intro"], body, "work")
 
-# ---------------- SERVICES ----------------
+# ---------------- SERVICES (manifesto + sticky-split panels) ----------------
 ON = ' class="on"'
 N = len(SERVICES)
-svc_index = "".join(f'<li><a href="#s{i+1}"{ON if i==0 else ""}><span class="n">0{i+1}</span><span class="t">{t}</span><i aria-hidden="true"></i></a></li>' for i,(t,*_ ) in enumerate(SERVICES))
-chapters = "".join(f'''
-<article class="ch" id="s{i+1}" aria-labelledby="s{i+1}-h">
- <div class="ch-top label"><span><b>Chapter 0{i+1}</b> / 0{N}</span><span>{" · ".join(st[:3])}</span></div>
- <div class="ch-title"><span class="ch-n" aria-hidden="true">0{i+1}</span><h2 id="s{i+1}-h">{t}</h2></div>
- <p class="ch-out rv">{o}</p>
- <div class="ch-grid">
-  <div class="ch-desc rv"><span class="label">Scope</span><p>{d}</p><span class="label">Typical stack</span>{chips(st)}</div>
-  <figure class="ch-art rv"><figcaption class="label"><span>You get</span><span>Artifact 0{i+1}</span></figcaption>
-   <p>{a}</p></figure>
- </div>
-</article>''' for i,(t,o,d,st,a) in enumerate(SERVICES))
-services = f'''
-<section class="phero svc-hero"><div class="wrap">
- <div class="crumb label"><a href="{{r}}index.html">Home</a> / Services</div>
- <h1>Five services, each with something you can hold.</h1>
-</div></section>
-<section class="svc-book"><div class="wrap svc-layout">
- <aside class="svc-index" aria-label="Services chapters">
-  <span class="label muted">Index</span>
-  <ol data-spy>{svc_index}</ol>
-  <div class="svc-count label" aria-hidden="true"><b data-spy-count>01</b> / 0{N}</div>
-  <a class="btn sm" href="{{r}}contact/index.html#book">Book 30 minutes <span class="arr">→</span></a>
- </aside>
- <div class="svc-chapters">{chapters}</div>
-</div></section>
-<section class="closing"><div class="wrap"><span class="label">Next step</span>
- <h2>Not sure which one? <span>Ask on a call.</span></h2>
- <div class="row"><a class="btn" href="{{r}}contact/index.html#book">Book 30 minutes <span class="arr">→</span></a><a class="btn ghost" href="{{r}}contact/index.html#write">Write instead</a></div></div></section>
-'''
-page("services/index.html", "Services · BindRaft", "Custom software, mobile apps, AI agents, digital consultancy, QA & security.", services, "services")
-
 VERBS = ["Build", "Ship", "Automate", "Plan", "Harden"]
 
-# ---------------- SERVICES 3 (alt: manifesto + full-bleed sticky-split panels) ----------------
 S3 = [
  dict(when="You have a workflow that lives in spreadsheets, email and phone calls, and it's starting to break.",
       do=["Map the flow with the people who run it","Ship a staging URL early, then demo weekly","Hand over a repo, docs and hosting in your name"],
@@ -373,9 +339,9 @@ panels = "".join(f'''
  </div>
 </div></section>''' for i,((t,o,d,st,a),x) in enumerate(zip(SERVICES,S3)))
 toc3 = "".join(f'<a href="#p{i+1}"><span>0{i+1}</span>{t}</a>' for i,(t,*_) in enumerate(SERVICES))
-services3 = f'''
+services = f'''
 <section class="m3-hero"><div class="wrap">
- <div class="crumb label"><a href="{{r}}index.html">Home</a> / Services / <span class="copper">Alt · Manifesto</span></div>
+ <div class="crumb label"><a href="{{r}}index.html">Home</a> / Services</div>
  <p class="label muted m3-k">A short manifesto</p>
  <h1 class="m3-h1">We'd rather ship <span>one thing that works</span> than five that demo well.</h1>
  <ol class="m3-tenets">
@@ -390,7 +356,7 @@ services3 = f'''
  <h2>One offer, one call. <span>Start there.</span></h2>
  <div class="row"><a class="btn" href="{{r}}contact/index.html#book">Book 30 minutes <span class="arr">→</span></a><a class="btn ghost" href="{{r}}contact/index.html#write">Write instead</a></div></div></section>
 '''
-page("services3/index.html", "Services (alt) · BindRaft", "BindRaft services: a short manifesto, then one offer at a time.", services3, "services3")
+page("services/index.html", "Services · BindRaft", "Custom software, mobile apps, AI agents, digital consultancy, QA & security: a short manifesto, then one offer at a time.", services, "services")
 
 # ---------------- ABOUT ----------------
 values = [("Show, don't tell","Prototypes and staging links over slide decks and status reports."),
