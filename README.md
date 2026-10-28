@@ -1,0 +1,1 @@
+# bindraft-proto
