@@ -1,0 +1,25 @@
+{
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:dir/index.html",
+      "destination": "/:dir/",
+      "permanent": true
+    },
+    {
+      "source": "/work/:slug/index.html",
+      "destination": "/work/:slug/",
+      "permanent": true
+    },
+    {
+      "source": "/work/:slug.html",
+      "destination": "/work/:slug/",
+      "permanent": true
+    }
+  ]
+}

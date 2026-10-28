@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bindraft-proto-preview.vercel.app/sitemap.xml
