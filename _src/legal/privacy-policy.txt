@@ -1,0 +1,205 @@
+Privacy Policy
+Your privacy is important to us. This policy explains how we collect and use your data.
+Last Updated: April 3, 2026
+Quick Summary
+This policy explains what personal data we collect, why we collect it, how we use it, and your rights regarding your information. We're committed to transparency, security, and giving you control over your data.
+Table of Contents
+→
+Who We Are
+→
+What Information We Collect
+→
+How We Use Your Information
+→
+AI Services & Data Processing
+→
+Cookies & Tracking Technologies
+→
+How We Share Your Information
+→
+International Data Transfers
+→
+How Long We Keep Your Data
+→
+Your Privacy Rights
+→
+How We Protect Your Data
+→
+Children's Privacy
+→
+Changes to This Policy
+→
+Contact Us
+1. Who We Are
+BindRaft ("we," "our," or "us") provides customized digital solutions and AI-powered agent services. We are committed to protecting your privacy and being transparent about how we handle your personal information.
+This Privacy Policy applies when you:
+Visit our website
+Use our services or AI solutions
+Contact our team or create an account
+By interacting with us, you agree to the practices described here. If you disagree, please discontinue use of our services.
+2. What Information We Collect
+2.1 Information You Provide Directly
+We collect information you voluntarily share when you:
+Create an account or request a consultation
+Fill out contact forms or surveys
+Communicate with our support or sales teams
+Types of data may include:
+Name and professional title
+Business email address and phone number
+Company name and role
+Messages or content you share with us
+2.2 Information Collected Automatically
+When you use our website or services, we and our partners may collect certain information through cookies and similar technologies:
+Technical & Usage Data:
+IP address and device identifiers
+Browser type, operating system, and language settings
+Pages visited, time spent, and clickstream data
+Referring website or search terms
+Purpose:
+This data helps us improve site performance, troubleshoot issues, personalize your experience, and understand how our services are used.
+3. How We Use Your Information
+We process your personal data only for specific, legitimate purposes:
+Purpose
+Legal Basis (GDPR)
+Deliver and maintain our services
+Performance of a contract
+Respond to your inquiries and support requests
+Legitimate interests
+Improve website functionality and user experience
+Legitimate interests
+Send service-related communications (e.g., updates, security alerts)
+Legitimate interests / Contract
+Comply with legal obligations
+Legal obligation
+Prevent fraud, enhance security, and protect our rights
+Legitimate interests
+Develop and refine AI models using anonymized data
+Legitimate interests (with safeguards)
+Note: Where required by law, we will obtain your explicit consent before processing sensitive data or using your information for marketing purposes.
+4. AI Services & Data Processing
+Because our core offerings involve AI agent services, we want to be clear about how your data is handled in this context:
+Service Delivery
+Interaction data processed through our AI agents is used solely to deliver, refine, and maintain the functionality of the service you requested.
+We do not use your personal conversations to identify you or target you with advertising.
+Model Improvement & Anonymization
+When we use operational data to improve our AI models, we first remove all Personally Identifiable Information (PII) through technical anonymization processes.
+Only aggregated, non-identifiable datasets are used for model training.
+We do not train our models on raw, identifiable user data.
+Third-Party AI Infrastructure
+We may use secure, vetted third-party providers (e.g., cloud platforms or foundational model APIs) to power our services. All such partners are bound by strict Data Processing Agreements that:
+Prohibit them from using your data to train their own commercial models
+Require confidentiality and security safeguards aligned with our standards
+Limit data use to the specific purposes we authorize
+5. Cookies & Tracking Technologies
+What Are Cookies?
+Cookies are small text files stored on your device that help websites remember information about your visit. We use:
+Essential cookies:
+Required for site functionality and security
+Analytics cookies:
+Help us understand how visitors use our site (e.g., via Google Analytics)
+Preference cookies:
+Remember your settings and choices
+Managing Your Preferences
+You can control cookie settings through your browser or device preferences.
+Disabling non-essential cookies may limit some site features but will not affect core service delivery.
+For more details on specific cookies we use, please contact us at
+[email protected]
+.
+Note: We do not use cookies for cross-context behavioral advertising or to "sell" your data as defined under CCPA/CPRA.
+6. How We Share Your Information
+We do not sell your personal data. We may share information only in the following circumstances:
+Trusted Service Providers
+We work with carefully selected partners who help us operate our services:
+Cloud & Hosting Providers:
+Secure infrastructure for website and database hosting
+Analytics Tools:
+Platforms that help us measure site performance and user engagement
+AI Infrastructure Partners:
+Compute and API providers essential to delivering our AI services
+All partners sign confidentiality and data processing agreements that restrict how they may use your data.
+Legal & Safety Requirements
+We may disclose information if required to:
+Comply with a valid legal request (subpoena, court order, government inquiry)
+Protect the rights, property, or safety of BindRaft, our users, or the public
+Enforce our terms of service or other agreements
+Business Transfers
+If BindRaft is involved in a merger, acquisition, or sale of assets, user information may be transferred as part of that transaction. We will notify you of any such change and your choices regarding your data.
+7. International Data Transfers
+BindRaft operates globally. When we transfer your personal data outside your country of residence (including to countries that may not have equivalent privacy laws), we implement appropriate safeguards such as:
+Standard Contractual Clauses approved by the European Commission
+Binding Corporate Rules or other legally recognized transfer mechanisms
+Technical measures like encryption during transit
+If you have questions about specific transfers, please contact our Privacy Compliance Office.
+8. How Long We Keep Your Data
+We retain your personal information only as long as necessary to:
+Provide and maintain our services
+Comply with legal, accounting, or reporting obligations
+Resolve disputes and enforce our agreements
+Retention Guidelines:
+Account and contact information:
+Retained while your account is active, plus up to 3 years after last activity for security and compliance purposes
+Usage and analytics data:
+Aggregated or anonymized after 24 months; raw logs retained for up to 12 months
+AI interaction data:
+Anonymized for model improvement within 90 days; identifiable data deleted after service completion unless retention is required for support or legal reasons
+Specific retention periods may vary based on jurisdictional requirements. If you request deletion, we will securely erase your data unless an exception applies (e.g., legal hold, fraud prevention).
+9. Your Privacy Rights
+Depending on your location, you may have the following rights regarding your personal data:
+Core Rights (Applicable Globally)
+Access:
+Request a copy of the personal data we hold about you
+Correction:
+Ask us to update inaccurate or incomplete information
+Deletion:
+Request erasure of your data ("right to be forgotten"), subject to legal exceptions
+Portability:
+Receive your data in a structured, machine-readable format (where technically feasible)
+Restriction/Object:
+Ask us to limit or stop certain processing activities
+Additional Rights for California Residents (CCPA/CPRA)
+Right to Opt-Out:
+You may opt out of "sharing" for cross-context behavioral advertising. Note: BindRaft does not sell or share personal data for advertising purposes.
+Right to Non-Discrimination:
+We will not deny services or charge different prices for exercising your privacy rights
+Authorized Agents:
+You may designate an authorized agent to submit requests on your behalf (subject to verification)
+How to Exercise Your Rights
+Submit a request to
+[email protected]
+with:
+Your name and contact information
+Description of the right you wish to exercise
+Any relevant account or service details to help us locate your data
+We will verify your identity to protect your privacy (this may include confirming email ownership or account details). We aim to respond within 30 days (or as required by applicable law). If we cannot fulfill your request, we will explain why and inform you of any appeal process available under local law.
+Note: Some requests may be limited if fulfilling them would compromise others' privacy, violate legal obligations, or prevent fraud.
+10. How We Protect Your Data
+We implement industry-standard security measures designed to protect your information:
+Encryption:
+Data transmitted to and from our services is encrypted using TLS; sensitive data at rest is encrypted where appropriate
+Access Controls:
+Strict role-based access limits employee access to personal data
+Monitoring & Testing:
+Regular security assessments, vulnerability scans, and incident response protocols
+Employee Training:
+Staff receive privacy and security training aligned with their responsibilities
+While we strive to protect your data, no internet transmission or storage system is 100% secure. If you suspect unauthorized access to your account, contact us immediately.
+11. Children's Privacy
+Our services are not directed to individuals under the age of 16. We do not knowingly collect personal information from children. If we become aware that we have inadvertently collected such data, we will take steps to delete it promptly. If you believe a child has provided us with information, please contact
+[email protected]
+.
+12. Changes to This Policy
+We may update this Privacy Policy periodically to reflect changes in our practices, services, or legal requirements. When we do:
+We will update the "Last Updated" date at the top
+For material changes, we will provide prominent notice via email or website banner
+Continued use of our services after changes constitutes acceptance of the updated policy
+We encourage you to review this policy regularly.
+13. Contact Us
+For privacy-related questions, requests to exercise your rights, or concerns about our AI data practices:
+Privacy Compliance Office
+📧 Email:
+[email protected]
+📬 Mailing Address:
+BindRaft Legal
+Road-10, House-31, Sector-9, Uttara
+Dhaka 1230, Bangladesh
+We aim to respond to all inquiries within 30 days. For urgent security concerns, please mark your email "URGENT: Security Incident."

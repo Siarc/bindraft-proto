@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth; scroll-padding-top: 96px;">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Privacy Policy · BindRaft</title>
+        <meta name="description" content="Your privacy is important to us. This policy explains how BindRaft collects, uses, and protects your personal data.">
+        <meta name="author" content="BindRaft">
+
+        <!-- OG Tags -->
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="BindRaft">
+        <meta property="og:title" content="Privacy Policy">
+        <meta property="og:description" content="Your privacy is important to us. This policy explains how BindRaft collects, uses, and protects your personal data.">
+
+        <!-- Favicons -->
+        <link rel="icon" href="https://bindraft.com/favicon.ico" sizes="any">
+        <link rel="icon" type="image/svg+xml" href="https://bindraft.com/favicon.svg">
+        <link rel="apple-touch-icon" href="https://bindraft.com/apple-touch-icon.png">
+
+        <!-- Fonts (Inter — Plavno-style) -->
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700,800" rel="stylesheet" />
+
+        <!-- Styles / Scripts -->
+        <link rel="preload" as="style" href="https://bindraft.com/build/assets/app-BFqL1wkc.css" /><link rel="modulepreload" as="script" href="https://bindraft.com/build/assets/app-l0sNRNKZ.js" /><link rel="stylesheet" href="https://bindraft.com/build/assets/app-BFqL1wkc.css" data-navigate-track="reload" /><script type="module" src="https://bindraft.com/build/assets/app-l0sNRNKZ.js" data-navigate-track="reload"></script>        <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.list-item][wire\:loading\.list-item], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}[wire\:cloak] {display: none !important;}dialog#livewire-error::backdrop {background-color: rgba(0, 0, 0, .6);}</style>
+
+        <!-- Dark Mode (runs before render to prevent flash) -->
+        <script>
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark')
+            } else {
+                document.documentElement.classList.remove('dark')
+            }
+        </script>
+    </head>
+
+    <body class="antialiased min-h-screen flex flex-col font-sans
+                 bg-cream text-phthalo selection:bg-viridian/20 selection:text-phthalo
+                 dark:bg-zinc-950 dark:text-zinc-50 dark:selection:bg-copper/30 dark:selection:text-cream
+                 overflow-x-hidden transition-colors duration-300">
+
+        <!-- Loading Screen Overlay -->
+        <!-- Only shown on hard reload or true first visit — not on internal link navigation -->
+        <script>
+            (function () {
+                var navType = (performance.getEntriesByType('navigation')[0] || {}).type;
+                var isReload = navType === 'reload';
+                var isFirstVisit = !sessionStorage.getItem('bindraft_visited');
+
+                if (isReload || isFirstVisit) {
+                    sessionStorage.setItem('bindraft_visited', '1');
+                }
+
+                window.__showLoadingScreen = isReload || isFirstVisit;
+            })();
+        </script>
+
+        <div id="loading-screen"
+             x-data="{ show: window.__showLoadingScreen }"
+             x-init="
+                if (show) {
+                    document.body.style.overflow = 'hidden';
+                    setTimeout(() => {
+                        show = false;
+                        document.body.style.overflow = '';
+                    }, 2800);
+                } else {
+                    $el.remove();
+                }
+             "
+             x-show="show"
+             x-transition:leave="transition ease-in duration-700"
+             x-transition:leave-start="opacity-100 scale-100"
+             x-transition:leave-end="opacity-0 scale-105"
+             @transitionend.self="$el.remove()"
+             style="display: none;"
+             onload="if(window.__showLoadingScreen) this.style.display=''"
+             class="loading-screen">
+            <div class="loading-slogan">
+                <span class="loading-word" style="animation-delay: 0.3s">Bridging</span>
+                <span class="loading-word" style="animation-delay: 0.6s">Vision</span>
+                <span class="loading-word" style="animation-delay: 0.9s">to</span>
+                <span class="loading-word" style="animation-delay: 1.2s">Reality</span>
+            </div>
+        </div>
+
+        <script>
+            // Reveal loading screen immediately if needed (before Alpine boots)
+            if (window.__showLoadingScreen) {
+                document.getElementById('loading-screen').style.display = '';
+            }
+        </script>
+
+        <!-- Floating Pill Header (Plavno-style) -->
+<header x-data="{ scrolled: false, mobileOpen: false }"
+        x-init="window.addEventListener('scroll', () => scrolled = window.scrollY > 20)"
+        class="fixed top-0 left-0 right-0 z-50 px-4 pt-4 transition-all duration-300"
+        :class="scrolled ? 'pt-2' : 'pt-4'">
+
+    <nav class="max-w-6xl mx-auto flex items-center justify-between px-5 py-3 rounded-full transition-all duration-500 ease-in-out"
+         :class="scrolled
+            ? 'bg-white/80 dark:bg-zinc-900/80 backdrop-blur-xl shadow-lg shadow-viridian/5 dark:shadow-black/20 border border-zinc-200/50 dark:border-zinc-700/30'
+            : 'bg-transparent border-transparent shadow-none backdrop-blur-none'">
+
+        <!-- Logo -->
+        <a href="https://bindraft.com" class="flex items-center gap-2">
+            <img src="https://bindraft.com/bindraft-logo.svg" alt="BindRaft" class="h-8 w-auto">
+            <span class="text-lg font-bold text-phthalo dark:text-cream tracking-tight">BindRaft</span>
+        </a>
+
+        <!-- Desktop Nav -->
+        <div class="hidden md:flex items-center gap-8">
+            <a href="https://bindraft.com/services" class="text-sm font-medium text-slate hover:text-viridian dark:text-zinc-400 dark:hover:text-copper transition-colors">Services</a>
+            <a href="https://bindraft.com/about" class="text-sm font-medium text-slate hover:text-viridian dark:text-zinc-400 dark:hover:text-copper transition-colors">About</a>
+            <a href="https://bindraft.com/contact" class="text-sm font-medium text-slate hover:text-viridian dark:text-zinc-400 dark:hover:text-copper transition-colors">Contact</a>
+        </div>
+
+        <!-- Right Side -->
+        <div class="flex items-center gap-3">
+            <!-- Dark Mode Toggle -->
+            <button onclick="toggleTheme()" class="w-9 h-9 rounded-full flex items-center justify-center text-slate hover:text-viridian dark:text-zinc-400 dark:hover:text-copper hover:bg-viridian/5 dark:hover:bg-copper/5 transition-all cursor-pointer" aria-label="Toggle theme">
+                <svg class="w-[18px] h-[18px] dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" /></svg>
+                <svg class="w-[18px] h-[18px] hidden dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" /></svg>
+            </button>
+
+            <!-- CTA Button -->
+            <div class="hidden md:block">
+                <a href="https://bindraft.com/contact" class="btn-primary text-xs px-4 py-2">
+                    Contact Us
+                </a>
+            </div>
+
+            <!-- Mobile Hamburger -->
+            <button @click="mobileOpen = !mobileOpen" class="md:hidden w-9 h-9 rounded-full flex items-center justify-center text-slate hover:text-viridian dark:text-zinc-400 dark:hover:text-copper hover:bg-viridian/5 dark:hover:bg-copper/5 transition-all cursor-pointer" aria-label="Toggle menu">
+                <svg x-show="!mobileOpen" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+                <svg x-show="mobileOpen" x-cloak class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div x-show="mobileOpen"
+         x-cloak
+         x-transition:enter="transition ease-out duration-200"
+         x-transition:enter-start="opacity-0 -translate-y-2"
+         x-transition:enter-end="opacity-100 translate-y-0"
+         x-transition:leave="transition ease-in duration-150"
+         x-transition:leave-start="opacity-100 translate-y-0"
+         x-transition:leave-end="opacity-0 -translate-y-2"
+         class="md:hidden mt-2 max-w-6xl mx-auto bg-white/90 dark:bg-zinc-900/90 backdrop-blur-xl rounded-2xl border border-zinc-200/50 dark:border-zinc-700/30 shadow-lg p-5">
+        <div class="flex flex-col gap-4">
+            <a href="https://bindraft.com/services" class="text-sm font-medium text-phthalo dark:text-cream hover:text-viridian dark:hover:text-copper transition-colors">Services</a>
+            <a href="https://bindraft.com/about" class="text-sm font-medium text-phthalo dark:text-cream hover:text-viridian dark:hover:text-copper transition-colors">About</a>
+            <a href="https://bindraft.com/contact" class="text-sm font-medium text-phthalo dark:text-cream hover:text-viridian dark:hover:text-copper transition-colors">Contact</a>
+            <hr class="border-zinc-200 dark:border-zinc-700">
+            <a href="https://bindraft.com/contact" class="btn-primary text-center text-sm justify-center">
+                Contact Us
+                <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
+            </a>
+        </div>
+    </div>
+</header>
+
+        <main class="flex-grow">
+            <div class="bg-cream dark:bg-zinc-950 transition-colors duration-300">
+        <div class="max-w-4xl mx-auto px-6 lg:px-10 pt-32 pb-20">
+            <div class="mb-12">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-phthalo dark:text-white mb-4 tracking-tight">Privacy Policy</h1>
+                <p class="text-slate dark:text-zinc-400 text-lg">Your privacy is important to us. This policy explains how we collect and use your data.</p>
+            </div>
+
+            <article class="prose prose-lg max-w-none
+                         text-phthalo/80 dark:text-zinc-300
+                         prose-headings:text-phthalo dark:prose-headings:text-white
+                         prose-h2:text-2xl prose-h2:font-extrabold prose-h2:mt-12 prose-h2:mb-3 prose-h2:tracking-tight
+                         prose-h3:text-base prose-h3:font-bold prose-h3:mt-7 prose-h3:mb-2 prose-h3:text-phthalo/90 dark:prose-h3:text-zinc-200
+                         prose-p:mb-5 prose-p:leading-relaxed
+                         prose-ul:mb-5 prose-li:mb-1
+                         prose-a:text-viridian dark:prose-a:text-copper prose-a:font-semibold prose-a:underline prose-a:underline-offset-2
+                         prose-strong:text-phthalo dark:prose-strong:text-white">
+                <p class="text-sm text-slate dark:text-zinc-500">Last Updated: April 3, 2026</p>
+
+                <h2>Quick Summary</h2>
+                <p>This policy explains what personal data we collect, why we collect it, how we use it, and your rights regarding your information. We're committed to transparency, security, and giving you control over your data.</p>
+
+                <h2>Table of Contents</h2>
+                <div class="not-prose rounded-xl border border-viridian/20 dark:border-zinc-700 bg-viridian/5 dark:bg-zinc-900/50 p-6 mb-8">
+                    <ol class="space-y-2 list-none m-0 p-0">
+                        <li class="flex items-center gap-2"><span class="text-viridian dark:text-copper font-bold text-sm w-5 shrink-0">→</span><a href="#who-we-are" class="text-viridian dark:text-copper font-semibold underline underline-offset-2 hover:opacity-80 transition-opacity">Who We Are</a></li>
+                        <li class="flex items-center gap-2"><span class="text-viridian dark:text-copper font-bold text-sm w-5 shrink-0">→</span><a href="#what-information-we-collect" class="text-viridian dark:text-copper font-semibold underline underline-offset-2 hover:opacity-80 transition-opacity">What Information We Collect</a></li>
+                        <li class="flex items-center gap-2"><span class="text-viridian dark:text-copper font-bold text-sm w-5 shrink-0">→</span><a href="#how-we-use-your-information" class="text-viridian dark:text-copper font-semibold underline underline-offset-2 hover:opacity-80 transition-opacity">How We Use Your Information</a></li>
+                        <li class="flex items-center gap-2"><span class="text-viridian dark:text-copper font-bold text-sm w-5 shrink-0">→</span><a href="#ai-services-data-processing" class="text-viridian dark:text-copper font-semibold underline underline-offset-2 hover:opacity-80 transition-opacity">AI Services &amp; Data Processing</a></li>
+                        <li class="flex items-center gap-2"><span class="text-viridian dark:text-copper font-bold text-sm w-5 shrink-0">→</span><a href="#cookies-tracking-technologies" class="text-viridian dark:text-copper font-semibold underline underline-offset-2 hover:opacity-80 transition-opacity">Cookies &amp; Tracking Technologies</a></li>
+                        <li class="flex items-center gap-2"><span class="text-viridian dark:text-copper font-bold text-sm w-5 shrink-0">→</span><a href="#how-we-share-your-information" class="text-viridian dark:text-copper font-semibold underline underline-offset-2 hover:opacity-80 transition-opacity">How We Share Your Information</a></li>
+                        <li class="flex items-center gap-2"><span class="text-viridian dark:text-copper font-bold text-sm w-5 shrink-0">→</span><a href="#international-data-transfers" class="text-viridian dark:text-copper font-semibold underline underline-offset-2 hover:opacity-80 transition-opacity">International Data Transfers</a></li>
+                        <li class="flex items-center gap-2"><span class="text-viridian dark:text-copper font-bold text-sm w-5 shrink-0">→</span><a href="#how-long-we-keep-your-data" class="text-viridian dark:text-copper font-semibold underline underline-offset-2 hover:opacity-80 transition-opacity">How Long We Keep Your Data</a></li>
+                        <li class="flex items-center gap-2"><span class="text-viridian dark:text-copper font-bold text-sm w-5 shrink-0">→</span><a href="#your-privacy-rights" class="text-viridian dark:text-copper font-semibold underline underline-offset-2 hover:opacity-80 transition-opacity">Your Privacy Rights</a></li>
+                        <li class="flex items-center gap-2"><span class="text-viridian dark:text-copper font-bold text-sm w-5 shrink-0">→</span><a href="#how-we-protect-your-data" class="text-viridian dark:text-copper font-semibold underline underline-offset-2 hover:opacity-80 transition-opacity">How We Protect Your Data</a></li>
+                        <li class="flex items-center gap-2"><span class="text-viridian dark:text-copper font-bold text-sm w-5 shrink-0">→</span><a href="#childrens-privacy" class="text-viridian dark:text-copper font-semibold underline underline-offset-2 hover:opacity-80 transition-opacity">Children's Privacy</a></li>
+                        <li class="flex items-center gap-2"><span class="text-viridian dark:text-copper font-bold text-sm w-5 shrink-0">→</span><a href="#changes-to-this-policy" class="text-viridian dark:text-copper font-semibold underline underline-offset-2 hover:opacity-80 transition-opacity">Changes to This Policy</a></li>
+                        <li class="flex items-center gap-2"><span class="text-viridian dark:text-copper font-bold text-sm w-5 shrink-0">→</span><a href="#contact-us" class="text-viridian dark:text-copper font-semibold underline underline-offset-2 hover:opacity-80 transition-opacity">Contact Us</a></li>
+                    </ol>
+                </div>
+
+                <h2 id="who-we-are">1. Who We Are</h2>
+                <p>BindRaft ("we," "our," or "us") provides customized digital solutions and AI-powered agent services. We are committed to protecting your privacy and being transparent about how we handle your personal information.</p>
+                <p>This Privacy Policy applies when you:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Visit our website</li>
+                    <li>Use our services or AI solutions</li>
+                    <li>Contact our team or create an account</li>
+                </ul>
+                <p>By interacting with us, you agree to the practices described here. If you disagree, please discontinue use of our services.</p>
+
+                <h2 id="what-information-we-collect">2. What Information We Collect</h2>
+                <h3>2.1 Information You Provide Directly</h3>
+                <p>We collect information you voluntarily share when you:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Create an account or request a consultation</li>
+                    <li>Fill out contact forms or surveys</li>
+                    <li>Communicate with our support or sales teams</li>
+                </ul>
+                <p>Types of data may include:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Name and professional title</li>
+                    <li>Business email address and phone number</li>
+                    <li>Company name and role</li>
+                    <li>Messages or content you share with us</li>
+                </ul>
+
+                <h3>2.2 Information Collected Automatically</h3>
+                <p>When you use our website or services, we and our partners may collect certain information through cookies and similar technologies:</p>
+                <p><strong>Technical & Usage Data:</strong></p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>IP address and device identifiers</li>
+                    <li>Browser type, operating system, and language settings</li>
+                    <li>Pages visited, time spent, and clickstream data</li>
+                    <li>Referring website or search terms</li>
+                </ul>
+                <p><strong>Purpose:</strong> This data helps us improve site performance, troubleshoot issues, personalize your experience, and understand how our services are used.</p>
+
+                <h2 id="how-we-use-your-information">3. How We Use Your Information</h2>
+                <p>We process your personal data only for specific, legitimate purposes:</p>
+                
+                <div class="overflow-x-auto my-6">
+                    <table class="min-w-full text-left border-collapse border border-slate/20 dark:border-zinc-800">
+                        <thead>
+                            <tr class="bg-slate/5 dark:bg-zinc-900 border-b border-slate/20 dark:border-zinc-800 text-phthalo dark:text-zinc-300">
+                                <th class="p-4 font-bold border-r border-slate/20 dark:border-zinc-800">Purpose</th>
+                                <th class="p-4 font-bold">Legal Basis (GDPR)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-phthalo/80 dark:text-zinc-400">
+                            <tr class="border-b border-slate/20 dark:border-zinc-800">
+                                <td class="p-4 border-r border-slate/20 dark:border-zinc-800">Deliver and maintain our services</td>
+                                <td class="p-4">Performance of a contract</td>
+                            </tr>
+                            <tr class="border-b border-slate/20 dark:border-zinc-800">
+                                <td class="p-4 border-r border-slate/20 dark:border-zinc-800">Respond to your inquiries and support requests</td>
+                                <td class="p-4">Legitimate interests</td>
+                            </tr>
+                            <tr class="border-b border-slate/20 dark:border-zinc-800">
+                                <td class="p-4 border-r border-slate/20 dark:border-zinc-800">Improve website functionality and user experience</td>
+                                <td class="p-4">Legitimate interests</td>
+                            </tr>
+                            <tr class="border-b border-slate/20 dark:border-zinc-800">
+                                <td class="p-4 border-r border-slate/20 dark:border-zinc-800">Send service-related communications (e.g., updates, security alerts)</td>
+                                <td class="p-4">Legitimate interests / Contract</td>
+                            </tr>
+                            <tr class="border-b border-slate/20 dark:border-zinc-800">
+                                <td class="p-4 border-r border-slate/20 dark:border-zinc-800">Comply with legal obligations</td>
+                                <td class="p-4">Legal obligation</td>
+                            </tr>
+                            <tr class="border-b border-slate/20 dark:border-zinc-800">
+                                <td class="p-4 border-r border-slate/20 dark:border-zinc-800">Prevent fraud, enhance security, and protect our rights</td>
+                                <td class="p-4">Legitimate interests</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 border-r border-slate/20 dark:border-zinc-800">Develop and refine AI models using anonymized data</td>
+                                <td class="p-4">Legitimate interests (with safeguards)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <p><em>Note: Where required by law, we will obtain your explicit consent before processing sensitive data or using your information for marketing purposes.</em></p>
+
+                <h2 id="ai-services-data-processing">4. AI Services & Data Processing</h2>
+                <p>Because our core offerings involve AI agent services, we want to be clear about how your data is handled in this context:</p>
+                
+                <h3>Service Delivery</h3>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Interaction data processed through our AI agents is used solely to deliver, refine, and maintain the functionality of the service you requested.</li>
+                    <li>We do not use your personal conversations to identify you or target you with advertising.</li>
+                </ul>
+
+                <h3>Model Improvement & Anonymization</h3>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>When we use operational data to improve our AI models, we first remove all Personally Identifiable Information (PII) through technical anonymization processes.</li>
+                    <li>Only aggregated, non-identifiable datasets are used for model training.</li>
+                    <li>We do not train our models on raw, identifiable user data.</li>
+                </ul>
+
+                <h3>Third-Party AI Infrastructure</h3>
+                <p>We may use secure, vetted third-party providers (e.g., cloud platforms or foundational model APIs) to power our services. All such partners are bound by strict Data Processing Agreements that:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Prohibit them from using your data to train their own commercial models</li>
+                    <li>Require confidentiality and security safeguards aligned with our standards</li>
+                    <li>Limit data use to the specific purposes we authorize</li>
+                </ul>
+
+                <h2 id="cookies-tracking-technologies">5. Cookies & Tracking Technologies</h2>
+                <h3>What Are Cookies?</h3>
+                <p>Cookies are small text files stored on your device that help websites remember information about your visit. We use:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li><strong>Essential cookies:</strong> Required for site functionality and security</li>
+                    <li><strong>Analytics cookies:</strong> Help us understand how visitors use our site (e.g., via Google Analytics)</li>
+                    <li><strong>Preference cookies:</strong> Remember your settings and choices</li>
+                </ul>
+                
+                <h3>Managing Your Preferences</h3>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>You can control cookie settings through your browser or device preferences.</li>
+                    <li>Disabling non-essential cookies may limit some site features but will not affect core service delivery.</li>
+                    <li>For more details on specific cookies we use, please contact us at <a href="/cdn-cgi/l/email-protection#ccbcbea5baadafb58caea5a2a8beadaab8e2afa3a1"><span class="__cf_email__" data-cfemail="f383819a8592908ab3919a9d9781929587dd909c9e">[email&#160;protected]</span></a>.</li>
+                </ul>
+                <p><em>Note: We do not use cookies for cross-context behavioral advertising or to "sell" your data as defined under CCPA/CPRA.</em></p>
+
+                <h2 id="how-we-share-your-information">6. How We Share Your Information</h2>
+                <p>We do not sell your personal data. We may share information only in the following circumstances:</p>
+                
+                <h3>Trusted Service Providers</h3>
+                <p>We work with carefully selected partners who help us operate our services:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li><strong>Cloud & Hosting Providers:</strong> Secure infrastructure for website and database hosting</li>
+                    <li><strong>Analytics Tools:</strong> Platforms that help us measure site performance and user engagement</li>
+                    <li><strong>AI Infrastructure Partners:</strong> Compute and API providers essential to delivering our AI services</li>
+                </ul>
+                <p>All partners sign confidentiality and data processing agreements that restrict how they may use your data.</p>
+
+                <h3>Legal & Safety Requirements</h3>
+                <p>We may disclose information if required to:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Comply with a valid legal request (subpoena, court order, government inquiry)</li>
+                    <li>Protect the rights, property, or safety of BindRaft, our users, or the public</li>
+                    <li>Enforce our terms of service or other agreements</li>
+                </ul>
+
+                <h3>Business Transfers</h3>
+                <p>If BindRaft is involved in a merger, acquisition, or sale of assets, user information may be transferred as part of that transaction. We will notify you of any such change and your choices regarding your data.</p>
+
+                <h2 id="international-data-transfers">7. International Data Transfers</h2>
+                <p>BindRaft operates globally. When we transfer your personal data outside your country of residence (including to countries that may not have equivalent privacy laws), we implement appropriate safeguards such as:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Standard Contractual Clauses approved by the European Commission</li>
+                    <li>Binding Corporate Rules or other legally recognized transfer mechanisms</li>
+                    <li>Technical measures like encryption during transit</li>
+                </ul>
+                <p>If you have questions about specific transfers, please contact our Privacy Compliance Office.</p>
+
+                <h2 id="how-long-we-keep-your-data">8. How Long We Keep Your Data</h2>
+                <p>We retain your personal information only as long as necessary to:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Provide and maintain our services</li>
+                    <li>Comply with legal, accounting, or reporting obligations</li>
+                    <li>Resolve disputes and enforce our agreements</li>
+                </ul>
+                
+                <h3>Retention Guidelines:</h3>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li><strong>Account and contact information:</strong> Retained while your account is active, plus up to 3 years after last activity for security and compliance purposes</li>
+                    <li><strong>Usage and analytics data:</strong> Aggregated or anonymized after 24 months; raw logs retained for up to 12 months</li>
+                    <li><strong>AI interaction data:</strong> Anonymized for model improvement within 90 days; identifiable data deleted after service completion unless retention is required for support or legal reasons</li>
+                </ul>
+                <p>Specific retention periods may vary based on jurisdictional requirements. If you request deletion, we will securely erase your data unless an exception applies (e.g., legal hold, fraud prevention).</p>
+
+                <h2 id="your-privacy-rights">9. Your Privacy Rights</h2>
+                <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+                
+                <h3>Core Rights (Applicable Globally)</h3>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li><strong>Access:</strong> Request a copy of the personal data we hold about you</li>
+                    <li><strong>Correction:</strong> Ask us to update inaccurate or incomplete information</li>
+                    <li><strong>Deletion:</strong> Request erasure of your data ("right to be forgotten"), subject to legal exceptions</li>
+                    <li><strong>Portability:</strong> Receive your data in a structured, machine-readable format (where technically feasible)</li>
+                    <li><strong>Restriction/Object:</strong> Ask us to limit or stop certain processing activities</li>
+                </ul>
+
+                <h3>Additional Rights for California Residents (CCPA/CPRA)</h3>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li><strong>Right to Opt-Out:</strong> You may opt out of "sharing" for cross-context behavioral advertising. Note: BindRaft does not sell or share personal data for advertising purposes.</li>
+                    <li><strong>Right to Non-Discrimination:</strong> We will not deny services or charge different prices for exercising your privacy rights</li>
+                    <li><strong>Authorized Agents:</strong> You may designate an authorized agent to submit requests on your behalf (subject to verification)</li>
+                </ul>
+
+                <h3>How to Exercise Your Rights</h3>
+                <p>Submit a request to <a href="/cdn-cgi/l/email-protection#d7a7a5bea1b6b4ae97b5beb9b3a5b6b1a3f9b4b8ba"><span class="__cf_email__" data-cfemail="7303011a0512100a33111a1d17011215075d101c1e">[email&#160;protected]</span></a> with:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Your name and contact information</li>
+                    <li>Description of the right you wish to exercise</li>
+                    <li>Any relevant account or service details to help us locate your data</li>
+                </ul>
+                <p>We will verify your identity to protect your privacy (this may include confirming email ownership or account details). We aim to respond within 30 days (or as required by applicable law). If we cannot fulfill your request, we will explain why and inform you of any appeal process available under local law.</p>
+                <p><em>Note: Some requests may be limited if fulfilling them would compromise others' privacy, violate legal obligations, or prevent fraud.</em></p>
+
+                <h2 id="how-we-protect-your-data">10. How We Protect Your Data</h2>
+                <p>We implement industry-standard security measures designed to protect your information:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li><strong>Encryption:</strong> Data transmitted to and from our services is encrypted using TLS; sensitive data at rest is encrypted where appropriate</li>
+                    <li><strong>Access Controls:</strong> Strict role-based access limits employee access to personal data</li>
+                    <li><strong>Monitoring & Testing:</strong> Regular security assessments, vulnerability scans, and incident response protocols</li>
+                    <li><strong>Employee Training:</strong> Staff receive privacy and security training aligned with their responsibilities</li>
+                </ul>
+                <p>While we strive to protect your data, no internet transmission or storage system is 100% secure. If you suspect unauthorized access to your account, contact us immediately.</p>
+
+                <h2 id="childrens-privacy">11. Children's Privacy</h2>
+                <p>Our services are not directed to individuals under the age of 16. We do not knowingly collect personal information from children. If we become aware that we have inadvertently collected such data, we will take steps to delete it promptly. If you believe a child has provided us with information, please contact <a href="/cdn-cgi/l/email-protection#18686a716e797b61587a71767c6a797e6c367b7775"><span class="__cf_email__" data-cfemail="d0a0a2b9a6b1b3a990b2b9beb4a2b1b6a4feb3bfbd">[email&#160;protected]</span></a>.</p>
+
+                <h2 id="changes-to-this-policy">12. Changes to This Policy</h2>
+                <p>We may update this Privacy Policy periodically to reflect changes in our practices, services, or legal requirements. When we do:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>We will update the "Last Updated" date at the top</li>
+                    <li>For material changes, we will provide prominent notice via email or website banner</li>
+                    <li>Continued use of our services after changes constitutes acceptance of the updated policy</li>
+                </ul>
+                <p>We encourage you to review this policy regularly.</p>
+
+                <h2 id="contact-us">13. Contact Us</h2>
+                <p>For privacy-related questions, requests to exercise your rights, or concerns about our AI data practices:</p>
+                <p><strong>Privacy Compliance Office</strong></p>
+                <p>
+                    &#128231; Email: <a href="/cdn-cgi/l/email-protection#f181839887909288b193989f9583909785df929e9c"><span class="__cf_email__" data-cfemail="1f6f6d76697e7c665f7d76717b6d7e796b317c7072">[email&#160;protected]</span></a><br/>
+                    &#128236; Mailing Address:<br/>
+                    BindRaft Legal<br/>
+                    Road-10, House-31, Sector-9, Uttara<br/>
+                    Dhaka 1230, Bangladesh
+                </p>
+                <p>We aim to respond to all inquiries within 30 days. For urgent security concerns, please mark your email "URGENT: Security Incident."</p>
+            </article>
+        </div>
+    </div>
+        </main>
+
+        <!-- Footer (Plavno-style dark phthalo background) -->
+<footer class="bg-phthalo dark:bg-zinc-950 text-cream/80 transition-colors duration-300">
+
+    <!-- CTA Banner -->
+    <div class="max-w-6xl mx-auto px-6 lg:px-10 py-16 md:py-20 border-b border-cream/10">
+        <div class="text-center max-w-2xl mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold text-cream mb-4">Ready to build something remarkable?</h2>
+            <p class="text-cream/60 mb-8">Our expert team is standing by to discuss your needs and craft the perfect solution for your business.</p>
+            <a href="https://bindraft.com/contact" class="btn-primary">
+                Get in Touch
+                <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
+            </a>
+        </div>
+    </div>
+
+    <!-- Links Grid -->
+    <div class="max-w-6xl mx-auto px-6 lg:px-10 py-12 md:py-16">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
+            <!-- Services -->
+            <div>
+                <h3 class="text-sm font-semibold text-cream mb-4 uppercase tracking-wider">Services</h3>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="https://bindraft.com/services#custom-software" class="text-cream/50 hover:text-copper transition-colors">Custom Software</a></li>
+                    <li><a href="https://bindraft.com/services#mobile-apps" class="text-cream/50 hover:text-copper transition-colors">Mobile Apps</a></li>
+                    <li><a href="https://bindraft.com/services#ai-solutions" class="text-cream/50 hover:text-copper transition-colors">AI Solutions</a></li>
+                    <li><a href="https://bindraft.com/services#digital-consultancy" class="text-cream/50 hover:text-copper transition-colors">Digital Consultancy</a></li>
+                    <li><a href="https://bindraft.com/services#testing-security" class="text-cream/50 hover:text-copper transition-colors">Security</a></li>
+                </ul>
+            </div>
+
+            <!-- Company -->
+            <div>
+                <h3 class="text-sm font-semibold text-cream mb-4 uppercase tracking-wider">Company</h3>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="https://bindraft.com/about" class="text-cream/50 hover:text-copper transition-colors">About Us</a></li>
+                    <li><a href="https://bindraft.com/contact" class="text-cream/50 hover:text-copper transition-colors">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal -->
+            <div>
+                <h3 class="text-sm font-semibold text-cream mb-4 uppercase tracking-wider">Legal</h3>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="https://bindraft.com/privacy-policy" class="text-cream/50 hover:text-copper transition-colors">Privacy Policy</a></li>
+                    <li><a href="https://bindraft.com/terms-of-use" class="text-cream/50 hover:text-copper transition-colors">Terms of Use</a></li>
+                    <li><a href="https://bindraft.com/cookie-policy" class="text-cream/50 hover:text-copper transition-colors">Cookie Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div>
+                <h3 class="text-sm font-semibold text-cream mb-4 uppercase tracking-wider">Contact</h3>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="/cdn-cgi/l/email-protection#1e7d71706a7f7d6a5e7c77707a6c7f786a307d7173" class="text-cream/50 hover:text-copper transition-colors"><span class="__cf_email__" data-cfemail="9bf8f4f5effaf8efdbf9f2f5ffe9fafdefb5f8f4f6">[email&#160;protected]</span></a></li>
+                    <li class="text-cream/40">Uttara, Dhaka 1230</li>
+                </ul>
+                <div class="flex gap-3 mt-5">
+                    <a href="https://www.linkedin.com/company/bindraft" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-cream/5 flex items-center justify-center text-cream/40 hover:bg-copper/10 hover:text-copper transition-all" aria-label="LinkedIn">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://github.com/bindraft" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-cream/5 flex items-center justify-center text-cream/40 hover:bg-copper/10 hover:text-copper transition-all" aria-label="GitHub">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                    </a>
+                    <a href="https://www.facebook.com/BindRaft/" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-cream/5 flex items-center justify-center text-cream/40 hover:bg-copper/10 hover:text-copper transition-all" aria-label="Facebook">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312.0 2.686.235 2.686.235v2.953H15.83c-1.491.0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-t border-cream/10">
+        <div class="max-w-6xl mx-auto px-6 lg:px-10 py-5 flex flex-col md:flex-row items-center justify-between gap-3">
+            <div class="flex items-center gap-3">
+                <a href="https://bindraft.com" class="flex items-center gap-2">
+                    <img src="https://bindraft.com/bindraft-logo.svg" alt="BindRaft" class="h-7 w-auto">
+                    <span class="text-sm font-bold text-cream tracking-tight">BindRaft</span>
+                </a>
+                <span class="text-xs text-cream/30">© 2026 All rights reserved</span>
+            </div>
+            <div class="flex gap-4 text-xs text-cream/30">
+                <a href="https://bindraft.com/privacy-policy" class="hover:text-copper transition-colors">Privacy</a>
+                <a href="https://bindraft.com/terms-of-use" class="hover:text-copper transition-colors">Terms</a>
+                <a href="https://bindraft.com/cookie-policy" class="hover:text-copper transition-colors">Cookies</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        <!-- Theme Toggle -->
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+            function toggleTheme() {
+                if (document.documentElement.classList.contains('dark')) {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.theme = 'light';
+                } else {
+                    document.documentElement.classList.add('dark');
+                    localStorage.theme = 'dark';
+                }
+            }
+        </script>
+        <script src="https://bindraft.com/livewire-ebcfa1db/livewire.min.js?id=8f29b734"   data-csrf="IVJExEDrcoyLX4lZzqZ2JBB6mnLh1mjFbAlGnis4" data-module-url="https://bindraft.com/livewire-ebcfa1db" data-update-uri="https://bindraft.com/livewire-ebcfa1db/update" data-navigate-once="true"></script>
+
+        
+        <script>
+            (function () {
+                var hash = window.location.hash;
+                if (!hash) { return; }
+
+                var scrollToAnchor = function () {
+                    var target = document.querySelector(hash);
+                    if (!target) { return; }
+
+                    var headerOffset = 96;
+                    var elementTop = target.getBoundingClientRect().top + window.pageYOffset;
+                    window.scrollTo({ top: elementTop - headerOffset, behavior: 'smooth' });
+                };
+
+                if (window.__showLoadingScreen) {
+                    // Wait for the loading screen to finish (2800ms) before scrolling
+                    setTimeout(scrollToAnchor, 3000);
+                } else {
+                    // Small delay to ensure layout is fully rendered
+                    setTimeout(scrollToAnchor, 100);
+                }
+            })();
+        </script>
+    </body>
+</html>

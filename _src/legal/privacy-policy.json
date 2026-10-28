@@ -1,0 +1,86 @@
+{
+ "title": "Privacy Policy",
+ "intro": "Your privacy is important to us. This policy explains how we collect and use your data.",
+ "updated": "April 3, 2026",
+ "summary": "This policy explains what personal data we collect, why we collect it, how we use it, and your rights regarding your information. We're committed to transparency, security, and giving you control over your data.",
+ "sections": [
+  {
+   "id": "who-we-are",
+   "num": "1",
+   "title": "Who We Are",
+   "html": "<p>BindRaft (\"we,\" \"our,\" or \"us\") provides customized digital solutions and AI-powered agent services. We are committed to protecting your privacy and being transparent about how we handle your personal information.</p>\n<p>This Privacy Policy applies when you:</p>\n<ul> <li>Visit our website</li> <li>Use our services or AI solutions</li> <li>Contact our team or create an account</li> </ul>\n<p>By interacting with us, you agree to the practices described here. If you disagree, please discontinue use of our services.</p>\n"
+  },
+  {
+   "id": "what-information-we-collect",
+   "num": "2",
+   "title": "What Information We Collect",
+   "html": "<h3>2.1 Information You Provide Directly</h3>\n<p>We collect information you voluntarily share when you:</p>\n<ul> <li>Create an account or request a consultation</li> <li>Fill out contact forms or surveys</li> <li>Communicate with our support or sales teams</li> </ul>\n<p>Types of data may include:</p>\n<ul> <li>Name and professional title</li> <li>Business email address and phone number</li> <li>Company name and role</li> <li>Messages or content you share with us</li> </ul>\n<h3>2.2 Information Collected Automatically</h3>\n<p>When you use our website or services, we and our partners may collect certain information through cookies and similar technologies:</p>\n<p><strong>Technical &amp; Usage Data:</strong></p>\n<ul> <li>IP address and device identifiers</li> <li>Browser type, operating system, and language settings</li> <li>Pages visited, time spent, and clickstream data</li> <li>Referring website or search terms</li> </ul>\n<p><strong>Purpose:</strong> This data helps us improve site performance, troubleshoot issues, personalize your experience, and understand how our services are used.</p>\n"
+  },
+  {
+   "id": "how-we-use-your-information",
+   "num": "3",
+   "title": "How We Use Your Information",
+   "html": "<p>We process your personal data only for specific, legitimate purposes:</p>\n<div class=\"tbl\"><table> <thead> <tr> <th>Purpose</th> <th>Legal Basis (GDPR)</th> </tr> </thead> <tbody> <tr> <td>Deliver and maintain our services</td> <td>Performance of a contract</td> </tr> <tr> <td>Respond to your inquiries and support requests</td> <td>Legitimate interests</td> </tr> <tr> <td>Improve website functionality and user experience</td> <td>Legitimate interests</td> </tr> <tr> <td>Send service-related communications (e.g., updates, security alerts)</td> <td>Legitimate interests / Contract</td> </tr> <tr> <td>Comply with legal obligations</td> <td>Legal obligation</td> </tr> <tr> <td>Prevent fraud, enhance security, and protect our rights</td> <td>Legitimate interests</td> </tr> <tr> <td>Develop and refine AI models using anonymized data</td> <td>Legitimate interests (with safeguards)</td> </tr> </tbody> </table></div>\n<p><em>Note: Where required by law, we will obtain your explicit consent before processing sensitive data or using your information for marketing purposes.</em></p>\n"
+  },
+  {
+   "id": "ai-services-data-processing",
+   "num": "4",
+   "title": "AI Services & Data Processing",
+   "html": "<p>Because our core offerings involve AI agent services, we want to be clear about how your data is handled in this context:</p>\n<h3>Service Delivery</h3>\n<ul> <li>Interaction data processed through our AI agents is used solely to deliver, refine, and maintain the functionality of the service you requested.</li> <li>We do not use your personal conversations to identify you or target you with advertising.</li> </ul>\n<h3>Model Improvement &amp; Anonymization</h3>\n<ul> <li>When we use operational data to improve our AI models, we first remove all Personally Identifiable Information (PII) through technical anonymization processes.</li> <li>Only aggregated, non-identifiable datasets are used for model training.</li> <li>We do not train our models on raw, identifiable user data.</li> </ul>\n<h3>Third-Party AI Infrastructure</h3>\n<p>We may use secure, vetted third-party providers (e.g., cloud platforms or foundational model APIs) to power our services. All such partners are bound by strict Data Processing Agreements that:</p>\n<ul> <li>Prohibit them from using your data to train their own commercial models</li> <li>Require confidentiality and security safeguards aligned with our standards</li> <li>Limit data use to the specific purposes we authorize</li> </ul>\n"
+  },
+  {
+   "id": "cookies-tracking-technologies",
+   "num": "5",
+   "title": "Cookies & Tracking Technologies",
+   "html": "<h3>What Are Cookies?</h3>\n<p>Cookies are small text files stored on your device that help websites remember information about your visit. We use:</p>\n<ul> <li><strong>Essential cookies:</strong> Required for site functionality and security</li> <li><strong>Analytics cookies:</strong> Help us understand how visitors use our site (e.g., via Google Analytics)</li> <li><strong>Preference cookies:</strong> Remember your settings and choices</li> </ul>\n<h3>Managing Your Preferences</h3>\n<ul> <li>You can control cookie settings through your browser or device preferences.</li> <li>Disabling non-essential cookies may limit some site features but will not affect core service delivery.</li> <li>For more details on specific cookies we use, please contact us at <a href=\"mailto:privacy@bindraft.com\">privacy@bindraft.com</a>.</li> </ul>\n<p><em>Note: We do not use cookies for cross-context behavioral advertising or to \"sell\" your data as defined under CCPA/CPRA.</em></p>\n"
+  },
+  {
+   "id": "how-we-share-your-information",
+   "num": "6",
+   "title": "How We Share Your Information",
+   "html": "<p>We do not sell your personal data. We may share information only in the following circumstances:</p>\n<h3>Trusted Service Providers</h3>\n<p>We work with carefully selected partners who help us operate our services:</p>\n<ul> <li><strong>Cloud &amp; Hosting Providers:</strong> Secure infrastructure for website and database hosting</li> <li><strong>Analytics Tools:</strong> Platforms that help us measure site performance and user engagement</li> <li><strong>AI Infrastructure Partners:</strong> Compute and API providers essential to delivering our AI services</li> </ul>\n<p>All partners sign confidentiality and data processing agreements that restrict how they may use your data.</p>\n<h3>Legal &amp; Safety Requirements</h3>\n<p>We may disclose information if required to:</p>\n<ul> <li>Comply with a valid legal request (subpoena, court order, government inquiry)</li> <li>Protect the rights, property, or safety of BindRaft, our users, or the public</li> <li>Enforce our terms of service or other agreements</li> </ul>\n<h3>Business Transfers</h3>\n<p>If BindRaft is involved in a merger, acquisition, or sale of assets, user information may be transferred as part of that transaction. We will notify you of any such change and your choices regarding your data.</p>\n"
+  },
+  {
+   "id": "international-data-transfers",
+   "num": "7",
+   "title": "International Data Transfers",
+   "html": "<p>BindRaft operates globally. When we transfer your personal data outside your country of residence (including to countries that may not have equivalent privacy laws), we implement appropriate safeguards such as:</p>\n<ul> <li>Standard Contractual Clauses approved by the European Commission</li> <li>Binding Corporate Rules or other legally recognized transfer mechanisms</li> <li>Technical measures like encryption during transit</li> </ul>\n<p>If you have questions about specific transfers, please contact our Privacy Compliance Office.</p>\n"
+  },
+  {
+   "id": "how-long-we-keep-your-data",
+   "num": "8",
+   "title": "How Long We Keep Your Data",
+   "html": "<p>We retain your personal information only as long as necessary to:</p>\n<ul> <li>Provide and maintain our services</li> <li>Comply with legal, accounting, or reporting obligations</li> <li>Resolve disputes and enforce our agreements</li> </ul>\n<h3>Retention Guidelines:</h3>\n<ul> <li><strong>Account and contact information:</strong> Retained while your account is active, plus up to 3 years after last activity for security and compliance purposes</li> <li><strong>Usage and analytics data:</strong> Aggregated or anonymized after 24 months; raw logs retained for up to 12 months</li> <li><strong>AI interaction data:</strong> Anonymized for model improvement within 90 days; identifiable data deleted after service completion unless retention is required for support or legal reasons</li> </ul>\n<p>Specific retention periods may vary based on jurisdictional requirements. If you request deletion, we will securely erase your data unless an exception applies (e.g., legal hold, fraud prevention).</p>\n"
+  },
+  {
+   "id": "your-privacy-rights",
+   "num": "9",
+   "title": "Your Privacy Rights",
+   "html": "<p>Depending on your location, you may have the following rights regarding your personal data:</p>\n<h3>Core Rights (Applicable Globally)</h3>\n<ul> <li><strong>Access:</strong> Request a copy of the personal data we hold about you</li> <li><strong>Correction:</strong> Ask us to update inaccurate or incomplete information</li> <li><strong>Deletion:</strong> Request erasure of your data (\"right to be forgotten\"), subject to legal exceptions</li> <li><strong>Portability:</strong> Receive your data in a structured, machine-readable format (where technically feasible)</li> <li><strong>Restriction/Object:</strong> Ask us to limit or stop certain processing activities</li> </ul>\n<h3>Additional Rights for California Residents (CCPA/CPRA)</h3>\n<ul> <li><strong>Right to Opt-Out:</strong> You may opt out of \"sharing\" for cross-context behavioral advertising. Note: BindRaft does not sell or share personal data for advertising purposes.</li> <li><strong>Right to Non-Discrimination:</strong> We will not deny services or charge different prices for exercising your privacy rights</li> <li><strong>Authorized Agents:</strong> You may designate an authorized agent to submit requests on your behalf (subject to verification)</li> </ul>\n<h3>How to Exercise Your Rights</h3>\n<p>Submit a request to <a href=\"mailto:privacy@bindraft.com\">privacy@bindraft.com</a> with:</p>\n<ul> <li>Your name and contact information</li> <li>Description of the right you wish to exercise</li> <li>Any relevant account or service details to help us locate your data</li> </ul>\n<p>We will verify your identity to protect your privacy (this may include confirming email ownership or account details). We aim to respond within 30 days (or as required by applicable law). If we cannot fulfill your request, we will explain why and inform you of any appeal process available under local law.</p>\n<p><em>Note: Some requests may be limited if fulfilling them would compromise others' privacy, violate legal obligations, or prevent fraud.</em></p>\n"
+  },
+  {
+   "id": "how-we-protect-your-data",
+   "num": "10",
+   "title": "How We Protect Your Data",
+   "html": "<p>We implement industry-standard security measures designed to protect your information:</p>\n<ul> <li><strong>Encryption:</strong> Data transmitted to and from our services is encrypted using TLS; sensitive data at rest is encrypted where appropriate</li> <li><strong>Access Controls:</strong> Strict role-based access limits employee access to personal data</li> <li><strong>Monitoring &amp; Testing:</strong> Regular security assessments, vulnerability scans, and incident response protocols</li> <li><strong>Employee Training:</strong> Staff receive privacy and security training aligned with their responsibilities</li> </ul>\n<p>While we strive to protect your data, no internet transmission or storage system is 100% secure. If you suspect unauthorized access to your account, contact us immediately.</p>\n"
+  },
+  {
+   "id": "childrens-privacy",
+   "num": "11",
+   "title": "Children's Privacy",
+   "html": "<p>Our services are not directed to individuals under the age of 16. We do not knowingly collect personal information from children. If we become aware that we have inadvertently collected such data, we will take steps to delete it promptly. If you believe a child has provided us with information, please contact <a href=\"mailto:privacy@bindraft.com\">privacy@bindraft.com</a>.</p>\n"
+  },
+  {
+   "id": "changes-to-this-policy",
+   "num": "12",
+   "title": "Changes to This Policy",
+   "html": "<p>We may update this Privacy Policy periodically to reflect changes in our practices, services, or legal requirements. When we do:</p>\n<ul> <li>We will update the \"Last Updated\" date at the top</li> <li>For material changes, we will provide prominent notice via email or website banner</li> <li>Continued use of our services after changes constitutes acceptance of the updated policy</li> </ul>\n<p>We encourage you to review this policy regularly.</p>\n"
+  },
+  {
+   "id": "contact-us",
+   "num": "13",
+   "title": "Contact Us",
+   "html": "<p>For privacy-related questions, requests to exercise your rights, or concerns about our AI data practices:</p>\n<p><strong>Privacy Compliance Office</strong></p>\n<p> Email: <a href=\"mailto:privacy@bindraft.com\">privacy@bindraft.com</a><br/> Mailing Address:<br/> BindRaft Legal<br/> Road-10, House-31, Sector-9, Uttara<br/> Dhaka 1230, Bangladesh </p>\n<p>We aim to respond to all inquiries within 30 days. For urgent security concerns, please mark your email \"URGENT: Security Incident.\"</p>\n"
+  }
+ ]
+}

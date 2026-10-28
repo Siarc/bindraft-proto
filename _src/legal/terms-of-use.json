@@ -1,0 +1,104 @@
+{
+ "title": "Terms of Use",
+ "intro": "Please read these terms carefully before using our website or services.",
+ "updated": "April 3, 2026",
+ "summary": "These Terms explain your rights and responsibilities when using BindRaft's website, platforms, and AI-powered services. By using our services, you agree to these terms. If you're using our services on behalf of a company, you confirm you have authority to bind that organization.",
+ "sections": [
+  {
+   "id": "who-these-terms-apply-to",
+   "num": "1",
+   "title": "Who These Terms Apply To",
+   "html": "<p>These Terms of Use (\"Terms\") govern your access to and use of:</p>\n<ul> <li>The BindRaft website (the \"Site\")</li> <li>Our software, platforms, and AI agent services (collectively, the \"Services\")</li> <li>Any related documentation, updates, or support</li> </ul>\n<p>By accessing or using our Services, you confirm that:</p>\n<ul> <li>You are at least 16 years old (or the age of digital consent in your jurisdiction)</li> <li>You have the legal authority to accept these Terms on your own behalf or on behalf of your employer or organization</li> <li>You will comply with these Terms and all applicable laws</li> </ul>\n<p>If you do not agree to these Terms, please do not use our Services.</p>\n"
+  },
+  {
+   "id": "account-registration-security",
+   "num": "2",
+   "title": "Account Registration & Security",
+   "html": "<h3>Creating an Account</h3>\n<p>To access certain features, you may need to register for an account. You agree to:</p>\n<ul> <li>Provide accurate, current, and complete information</li> <li>Maintain and promptly update your account details</li> <li>Keep your login credentials confidential and secure</li> </ul>\n<h3>Account Responsibility</h3>\n<p>You are solely responsible for:</p>\n<ul> <li>All activities that occur under your account</li> <li>Maintaining the security of your password and authentication methods</li> <li>Notifying us immediately at <a href=\"mailto:privacy@bindraft.com\">privacy@bindraft.com</a> of any unauthorized access</li> </ul>\n<p>BindRaft is not liable for losses arising from your failure to protect account credentials or from unauthorized access due to your negligence.</p>\n"
+  },
+  {
+   "id": "acceptable-use-policy",
+   "num": "3",
+   "title": "Acceptable Use Policy",
+   "html": "<p>You may use our Services only for lawful purposes and in accordance with these Terms. You agree not to:</p>\n<h3>Prohibited Activities</h3>\n<ul> <li><strong>Violate laws or rights:</strong> Use the Services to infringe intellectual property, privacy, or other legal rights of any person or entity</li> <li><strong>Harm or exploit others:</strong> Harass, abuse, defame, or discriminate against individuals or groups</li> <li><strong>Compromise security:</strong> Attempt to probe, scan, test vulnerabilities, or bypass authentication systems</li> <li><strong>Disrupt services:</strong> Use bots, scrapers, or automated tools to access the Services without permission (except for standard search engines)</li> <li><strong>Reverse engineer:</strong> Decompiling, disassembling, or attempting to extract source code from our software (except where expressly permitted by law)</li> <li><strong>Misuse AI features:</strong> Generate content that is illegal, fraudulent, defamatory, or intended to deceive or harm</li> <li><strong>Impersonate others:</strong> Misrepresent your identity, affiliation, or authority</li> <li><strong>Overload systems:</strong> Engage in activity that excessively burdens our infrastructure or degrades service for others</li> </ul>\n<h3>AI-Specific Restrictions</h3>\n<p>When using our AI agent services, you further agree not to:</p>\n<ul> <li>Use outputs for high-stakes decisions (medical, legal, financial) without independent professional verification</li> <li>Generate content intended to manipulate public opinion, spread misinformation, or interfere with democratic processes</li> <li>Create deepfakes, non-consensual imagery, or content that violates others' rights</li> <li>Automate spam, phishing, or unsolicited commercial communications</li> </ul>\n<p>BindRaft reserves the right to suspend or terminate access for violations of this policy, with or without notice.</p>\n"
+  },
+  {
+   "id": "intellectual-property-rights",
+   "num": "4",
+   "title": "Intellectual Property Rights",
+   "html": "<h3>Our Property</h3>\n<p>The Services, including all software, designs, trademarks, logos, content, and AI models, are owned by BindRaft or its licensors and protected by copyright, trademark, and other intellectual property laws worldwide.</p>\n<p>You may not:</p>\n<ul> <li>Copy, modify, distribute, sell, or lease any part of the Services</li> <li>Remove proprietary notices or labels from the Services</li> <li>Use our trademarks or branding without prior written consent</li> </ul>\n<h3>Limited License to Use</h3>\n<p>Subject to these Terms, BindRaft grants you a limited, non-exclusive, non-transferable, revocable license to:</p>\n<ul> <li>Access and use the Services for your internal business or personal purposes</li> <li>Display and use outputs generated by our AI tools in accordance with Section 5</li> </ul>\n<p>This license does not include any right to:</p>\n<ul> <li>Resell, white-label, or commercially redistribute the Services themselves</li> <li>Build competing products using our APIs, models, or infrastructure</li> <li>Access the Services via automated means beyond what we explicitly authorize</li> </ul>\n"
+  },
+  {
+   "id": "your-content-ai-outputs",
+   "num": "5",
+   "title": "Your Content & AI Outputs",
+   "html": "<h3>Your Content</h3>\n<p>You retain ownership of any text, data, prompts, files, or other materials you submit to the Services (\"Your Content\"). By submitting Content, you grant BindRaft a worldwide, non-exclusive, royalty-free license to:</p>\n<ul> <li>Host, process, and transmit Your Content to deliver the Services</li> <li>Use anonymized, aggregated versions of Your Content to improve our AI models (as described in our Privacy Policy)</li> <li>Provide support, troubleshoot issues, and enforce these Terms</li> </ul>\n<p>You represent that you have all necessary rights to grant this license and that Your Content does not violate third-party rights or applicable laws.</p>\n<h3>AI-Generated Outputs</h3>\n<p>Outputs produced by our AI agents in response to your prompts (\"AI Outputs\") are provided to you under the following terms:</p>\n<ul> <li><strong>Ownership:</strong> Subject to your compliance with these Terms, BindRaft assigns to you all right, title, and interest in AI Outputs you generate. You may use, reproduce, and commercialize these Outputs.</li> <li><strong>No Warranty:</strong> AI Outputs are generated probabilistically and may contain inaccuracies, biases, or incomplete information. You are solely responsible for reviewing, validating, and appropriately using any Output.</li> <li><strong>Third-Party Rights:</strong> AI Outputs may inadvertently resemble existing copyrighted works or contain elements derived from training data. BindRaft does not guarantee that Outputs are free from third-party claims. You assume responsibility for any use that infringes others' rights.</li> </ul>\n<h3>Feedback &amp; Suggestions</h3>\n<p>If you provide ideas, suggestions, or feedback about the Services (\"Feedback\"), you grant BindRaft a perpetual, irrevocable, royalty-free license to use, implement, and commercialize that Feedback without compensation or attribution to you.</p>\n"
+  },
+  {
+   "id": "ai-services-important-disclosures",
+   "num": "6",
+   "title": "AI Services: Important Disclosures",
+   "html": "<p>Our AI-powered services are advanced but inherently probabilistic. Please understand:</p>\n<h3>Accuracy &amp; Reliability</h3>\n<ul> <li>AI Outputs are generated based on patterns in training data and may not be factually accurate, current, or complete</li> <li>Outputs should not be relied upon for medical, legal, financial, or other high-stakes decisions without independent professional review</li> <li>We continuously improve our models, but cannot guarantee error-free performance</li> </ul>\n<h3>Evolution of Services</h3>\n<ul> <li>AI capabilities, features, and outputs may change over time as we update models and infrastructure</li> <li>We may modify, suspend, or discontinue specific AI features with reasonable notice</li> </ul>\n<h3>Human Oversight Recommended</h3>\n<ul> <li>We encourage users to apply human judgment, domain expertise, and ethical review when using AI-generated content</li> <li>You are responsible for ensuring your use of AI Outputs complies with applicable laws and organizational policies</li> </ul>\n"
+  },
+  {
+   "id": "fees-payments-subscriptions",
+   "num": "7",
+   "title": "Fees, Payments & Subscriptions",
+   "html": "<p><em>(If applicable to your service tier)</em></p>\n<h3>Pricing &amp; Billing</h3>\n<ul> <li>Fees for paid Services are listed on our website or in your account dashboard</li> <li>All fees are quoted in USD and exclude applicable taxes, which you are responsible for paying</li> <li>Subscription fees are billed in advance on a recurring basis (monthly/annual) unless otherwise specified</li> </ul>\n<h3>Payment Terms</h3>\n<ul> <li>You authorize BindRaft or our payment processors to charge your designated payment method</li> <li>Failed payments may result in suspension of access until resolved</li> <li>Refunds are evaluated case-by-case; please contact <a href=\"mailto:support@bindraft.com\">support@bindraft.com</a> for assistance</li> </ul>\n<h3>Changes to Pricing</h3>\n<ul> <li>We will provide at least 30 days' notice before increasing subscription fees</li> <li>Continued use after a price change constitutes acceptance of the new terms</li> </ul>\n"
+  },
+  {
+   "id": "term-termination",
+   "num": "8",
+   "title": "Term & Termination",
+   "html": "<h3>Term</h3>\n<p>These Terms remain in effect while you use the Services. Subscription access continues for the period you have paid for, subject to termination as below.</p>\n<h3>Termination by You</h3>\n<ul> <li>You may stop using the Services at any time</li> <li>To cancel a subscription, follow the instructions in your account settings or contact <a href=\"mailto:support@bindraft.com\">support@bindraft.com</a></li> <li>Cancellations take effect at the end of your current billing cycle; no partial refunds for mid-cycle cancellations unless required by law</li> </ul>\n<h3>Termination by BindRaft</h3>\n<p>We may suspend or terminate your access immediately if:</p>\n<ul> <li>You materially breach these Terms and fail to cure within 14 days of notice (where curable)</li> <li>Your use poses a security risk, legal liability, or harm to other users</li> <li>Required by law, regulation, or to protect BindRaft's rights and safety</li> </ul>\n<h3>Effect of Termination</h3>\n<p>Upon termination:</p>\n<ul> <li>Your right to access the Services ceases immediately</li> <li>Sections 4 (Intellectual Property), 5 (Your Content), 9–11 (Disclaimers, Liability, Indemnification), 14–15 (General Provisions, Governing Law) survive termination</li> <li>We may retain Your Content as required by law or for legitimate business purposes (e.g., security, fraud prevention), as detailed in our Privacy Policy</li> </ul>\n"
+  },
+  {
+   "id": "disclaimer-of-warranties",
+   "num": "9",
+   "title": "Disclaimer of Warranties",
+   "html": "<p>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SERVICES ARE PROVIDED \"AS IS\" AND \"AS AVAILABLE\" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED.</p>\n<p>BindRaft disclaims all implied warranties, including:</p>\n<ul> <li>Merchantability, fitness for a particular purpose, or non-infringement</li> <li>Accuracy, reliability, or completeness of AI Outputs or other content</li> <li>Uninterrupted, error-free, or secure operation of the Services</li> <li>Correction of defects or errors</li> </ul>\n<p>Some jurisdictions do not allow exclusion of implied warranties, so the above may not fully apply to you. In such cases, warranties are limited to the minimum scope permitted by law.</p>\n"
+  },
+  {
+   "id": "limitation-of-liability",
+   "num": "10",
+   "title": "Limitation of Liability",
+   "html": "<p>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:</p>\n<h3>Exclusion of Consequential Damages</h3>\n<p>IN NO EVENT SHALL BINDRAFT, ITS AFFILIATES, OFFICERS, EMPLOYEES, OR LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOSS OF PROFITS, DATA, BUSINESS, OR GOODWILL, ARISING FROM OR RELATED TO THESE TERMS OR YOUR USE OF THE SERVICES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>\n<h3>Cap on Direct Damages</h3>\n<p>EXCEPT FOR LIABILITY ARISING FROM (I) YOUR BREACH OF CONFIDENTIALITY OBLIGATIONS, (II) YOUR INFRINGEMENT OF OUR INTELLECTUAL PROPERTY RIGHTS, OR (III) YOUR INDEMNIFICATION OBLIGATIONS UNDER SECTION 11, BINDRAFT'S TOTAL AGGREGATE LIABILITY FOR ANY CLAIMS ARISING FROM THESE TERMS OR THE SERVICES SHALL NOT EXCEED THE AMOUNT YOU PAID TO BINDRAFT FOR THE SERVICES IN THE SIX (6) MONTHS PRECEDING THE EVENT GIVING RISE TO THE CLAIM. FOR FREE SERVICES, LIABILITY IS CAPPED AT USD $100.</p>\n<h3>Jurisdictional Limitations</h3>\n<p>Some jurisdictions do not allow limitations on liability for personal injury or certain other damages. In such places, our liability is limited to the greatest extent permitted by law.</p>\n"
+  },
+  {
+   "id": "indemnification",
+   "num": "11",
+   "title": "Indemnification",
+   "html": "<p>You agree to defend, indemnify, and hold harmless BindRaft, its affiliates, and their respective officers, employees, and agents from and against any claims, liabilities, damages, losses, or expenses (including reasonable attorneys' fees) arising out of:</p>\n<ul> <li>Your use of the Services in violation of these Terms</li> <li>Your Content or AI Outputs you generate and use</li> <li>Your violation of any third-party rights or applicable laws</li> </ul>\n<p>This obligation survives termination of these Terms.</p>\n"
+  },
+  {
+   "id": "third-party-links-services",
+   "num": "12",
+   "title": "Third-Party Links & Services",
+   "html": "<p>Our Services may contain links to third-party websites, tools, or APIs. These are provided for convenience only. BindRaft:</p>\n<ul> <li>Does not control, endorse, or assume responsibility for third-party content or practices</li> <li>Encourages you to review the terms and privacy policies of any third-party service you use</li> <li>Is not liable for any harm or losses resulting from your use of third-party resources</li> </ul>\n"
+  },
+  {
+   "id": "changes-to-these-terms",
+   "num": "13",
+   "title": "Changes to These Terms",
+   "html": "<p>We may update these Terms periodically to reflect changes in our Services, legal requirements, or business practices.</p>\n<h3>How We Notify You</h3>\n<ul> <li><strong>Minor changes:</strong> We will update the \"Last Updated\" date at the top of this page</li> <li><strong>Material changes:</strong> For changes that significantly affect your rights (e.g., new fees, expanded data use, altered liability), we will provide at least 30 days' advance notice via email or prominent website notice</li> </ul>\n<h3>Your Choices</h3>\n<ul> <li>If you disagree with material changes, you may terminate your account before the changes take effect</li> <li>Continued use of the Services after the effective date constitutes acceptance of the updated Terms</li> </ul>\n"
+  },
+  {
+   "id": "general-provisions",
+   "num": "14",
+   "title": "General Provisions",
+   "html": "<ul> <li><strong>Severability:</strong> If any provision is found unenforceable, the remaining provisions remain in full effect, and the unenforceable provision will be modified to the minimum extent necessary to be valid.</li> <li><strong>Waiver:</strong> Our failure to enforce any right or provision is not a waiver of future enforcement.</li> <li><strong>Assignment:</strong> You may not assign these Terms without our prior written consent. BindRaft may assign these Terms in connection with a merger, acquisition, or sale of assets.</li> <li><strong>Force Majeure:</strong> We are not liable for delays or failures due to circumstances beyond our reasonable control (e.g., natural disasters, war, internet infrastructure failures).</li> <li><strong>Entire Agreement:</strong> These Terms, together with our Privacy Policy and any supplemental terms, constitute the entire agreement between you and BindRaft regarding the Services.</li> <li><strong>Headings:</strong> Section headings are for convenience only and do not affect interpretation.</li> </ul>\n"
+  },
+  {
+   "id": "governing-law-dispute-resolution",
+   "num": "15",
+   "title": "Governing Law & Dispute Resolution",
+   "html": "<h3>Governing Law</h3>\n<p>These Terms are governed by and construed in accordance with the laws of the People's Republic of Bangladesh, without regard to its conflict of law principles. The United Nations Convention on Contracts for the International Sale of Goods does not apply.</p>\n<h3>Informal Resolution First</h3>\n<p>Before initiating formal proceedings, you agree to contact us at <a href=\"mailto:contact@bindraft.com\">contact@bindraft.com</a> to attempt an informal resolution. We commit to responding within 30 days.</p>\n<h3>Formal Disputes</h3>\n<p>If informal resolution fails:</p>\n<ul> <li><strong>For users in Bangladesh:</strong> Disputes shall be resolved exclusively in the courts located in Dhaka, Bangladesh</li> <li><strong>For international users:</strong> Disputes shall be resolved through binding arbitration administered by the Bangladesh International Arbitration Centre (BIAC) under its rules. Arbitration shall be conducted in English, in Dhaka, by a single arbitrator. Judgment on the award may be entered in any court of competent jurisdiction.</li> </ul>\n<p><strong>Small Claims Exception:</strong> Either party may bring individual claims in small claims court (or equivalent) for disputes within that court's monetary jurisdiction.</p>\n<h3>Class Action Waiver</h3>\n<p>TO THE EXTENT PERMITTED BY LAW, YOU AGREE THAT ANY DISPUTE WILL BE CONDUCTED ON AN INDIVIDUAL BASIS ONLY, AND YOU WAIVE ANY RIGHT TO PARTICIPATE IN A CLASS, COLLECTIVE, OR REPRESENTATIVE ACTION.</p>\n<p><em>Note: Some jurisdictions do not permit arbitration agreements or class action waivers for consumer claims. If you are a consumer in such a jurisdiction, this section may not apply to you.</em></p>\n"
+  },
+  {
+   "id": "contact-us",
+   "num": "16",
+   "title": "Contact Us",
+   "html": "<p>For questions about these Terms, account issues, or legal notices:</p>\n<h3>General Inquiries</h3>\n<p>Email: <a href=\"mailto:contact@bindraft.com\">contact@bindraft.com</a></p>\n<h3>Legal &amp; Compliance</h3>\n<p> Email: <a href=\"mailto:privacy@bindraft.com\">privacy@bindraft.com</a><br/> Mailing Address:<br/> BindRaft Legal<br/> Road-10, House-31, Sector-9, Uttara<br/> Dhaka 1230, Bangladesh </p>\n<p>We aim to respond to all inquiries within 30 business days. For urgent security or abuse reports, please mark your email \"URGENT: Security/Abuse Report.\"</p>\n"
+  }
+ ]
+}
