@@ -323,7 +323,7 @@ for i, s in enumerate(ORDER):
     credit = f'<div><dt>Credit</dt><dd>{b["credit"]}</dd></div>' if b["credit"] else '<div><dt>Status</dt><dd><i class="live-dot" aria-hidden="true"></i>Live, public</dd></div>'
     body = f'''
 <section class="case-hero"><div class="wrap">
- <nav class="crumb label muted" aria-label="Breadcrumb" style="margin-bottom:28px"><a href="{{r}}work/">Work</a> / 0{i+1}</nav>
+ <nav class="crumb label muted" aria-label="Breadcrumb" style="margin-bottom:20px"><a href="{{r}}work/">Work</a> / 0{i+1}</nav>
  <h1>{c["name"]}</h1>
  <p class="lede" style="font-size:clamp(18px,1.6vw,22px);max-width:52ch;color:var(--ink-2);margin-top:28px">{b["intro"]}</p>
  <dl class="case-facts">
